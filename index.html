@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ví dụ chuyển CSS truyền thống thành Sass có cấu trúc.">
+  <title>CSS sang Sass | Bài thực hành</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <p class="eyebrow">SASS PRACTICE / 01</p>
+      <h1>CSS cũ, cấu trúc mới.</h1>
+      <p>Chuyển các quy tắc CSS cơ bản thành Sass dễ tái sử dụng và bảo trì.</p>
+    </div>
+  </header>
+  <main class="container demo-layout">
+    <section class="card">
+      <p class="eyebrow">COMPONENT</p>
+      <h2>Thẻ nội dung</h2>
+      <p>Màu sắc, khoảng cách và đổ bóng được quản lý bằng biến Sass.</p>
+      <a class="button" href="#structure">Xem cấu trúc Sass</a>
+    </section>
+    <section class="structure card" id="structure">
+      <p class="eyebrow">STRUCTURE</p>
+      <h2>Tách partial theo trách nhiệm</h2>
+      <ul>
+        <li><code>abstracts</code>: biến và mixin</li>
+        <li><code>base</code>: quy tắc toàn cục</li>
+        <li><code>layout</code>: container</li>
+        <li><code>components</code>: nút và thẻ</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

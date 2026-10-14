@@ -1,0 +1,21 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.demo-layout {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding-bottom: 48px;
+}
+
+@media (max-width: 640px) {
+  .container {
+    width: min(90%, 540px);
+  }
+
+  .demo-layout {
+    grid-template-columns: 1fr;
+  }
+}
